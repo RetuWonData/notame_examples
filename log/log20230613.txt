@@ -1,0 +1,141 @@
+INFO [2023-06-13 13:29:13] Starting logging
+INFO [2023-06-13 13:29:13] Detecting corner position
+INFO [2023-06-13 13:29:13] Corner detected correctly at row 12, column W
+INFO [2023-06-13 13:29:13] 
+Extracting sample information from rows 1 to 12 and columns X to BK
+INFO [2023-06-13 13:29:13] Replacing spaces in sample information column names with underscores (_)
+INFO [2023-06-13 13:29:13] Naming the last column of sample information "Datafile"
+INFO [2023-06-13 13:29:13] 
+Extracting feature information from rows 13 to 128 and columns A to W
+INFO [2023-06-13 13:29:13] Creating Split column from Split
+INFO [2023-06-13 13:29:13] Replacing dots (.) in feature information column names with underscores (_)
+INFO [2023-06-13 13:29:13] 
+Extracting feature abundances from rows 13 to 128 and columns X to BK
+INFO [2023-06-13 13:29:13] 
+Checking sample information
+INFO [2023-06-13 13:29:13] Checking that feature abundances only contain numeric values
+INFO [2023-06-13 13:29:13] 
+Checking feature information
+INFO [2023-06-13 13:29:13] Checking that feature IDs are unique and not stored as numbers
+INFO [2023-06-13 13:29:13] Checking that m/z and retention time values are reasonable
+INFO [2023-06-13 13:29:18] 
+Checking feature information
+INFO [2023-06-13 13:29:18] Checking that feature IDs are unique and not stored as numbers
+INFO [2023-06-13 13:29:18] Checking that feature abundances only contain numeric values
+INFO [2023-06-13 13:29:18] Setting row and column names of exprs based on feature and pheno data
+INFO [2023-06-13 13:29:36] 
+15% of features flagged for low detection rate
+INFO [2023-06-13 13:29:36] 
+Starting drift correction at 2023-06-13 13:29:36.142193
+INFO [2023-06-13 13:29:39] Drift correction performed at 2023-06-13 13:29:39.407305
+INFO [2023-06-13 13:29:39] Inspecting drift correction results 2023-06-13 13:29:39.508603
+INFO [2023-06-13 13:29:39] Drift correction results inspected at 2023-06-13 13:29:39.675875
+INFO [2023-06-13 13:29:39] 
+Drift correction results inspected, report:
+Drift_corrected: 91%,  Missing_QCS: 9%
+INFO [2023-06-13 13:29:39] 
+27% of features flagged for low quality
+INFO [2023-06-13 13:29:39] 
+18% of features flagged for low detection rate
+INFO [2023-06-13 13:29:40] 
+Starting drift correction at 2023-06-13 13:29:40.011832
+INFO [2023-06-13 13:29:40] Drift correction performed at 2023-06-13 13:29:40.134256
+INFO [2023-06-13 13:29:40] Inspecting drift correction results 2023-06-13 13:29:40.221961
+INFO [2023-06-13 13:29:40] Drift correction results inspected at 2023-06-13 13:29:40.398622
+INFO [2023-06-13 13:29:40] 
+Drift correction results inspected, report:
+Drift_corrected: 71%,  Missing_QCS: 29%
+INFO [2023-06-13 13:29:40] 
+39% of features flagged for low quality
+INFO [2023-06-13 13:29:40] 
+11% of features flagged for low detection rate
+INFO [2023-06-13 13:29:40] 
+Starting drift correction at 2023-06-13 13:29:40.71675
+INFO [2023-06-13 13:29:40] Drift correction performed at 2023-06-13 13:29:40.832669
+INFO [2023-06-13 13:29:40] Inspecting drift correction results 2023-06-13 13:29:40.912165
+INFO [2023-06-13 13:29:41] Drift correction results inspected at 2023-06-13 13:29:41.083737
+INFO [2023-06-13 13:29:41] 
+Drift correction results inspected, report:
+Drift_corrected: 89%,  Missing_QCS: 11%
+INFO [2023-06-13 13:29:41] 
+30% of features flagged for low quality
+INFO [2023-06-13 13:29:41] 
+11% of features flagged for low detection rate
+INFO [2023-06-13 13:29:41] 
+Starting drift correction at 2023-06-13 13:29:41.3963
+INFO [2023-06-13 13:29:41] Drift correction performed at 2023-06-13 13:29:41.506875
+INFO [2023-06-13 13:29:41] Inspecting drift correction results 2023-06-13 13:29:41.588543
+INFO [2023-06-13 13:29:41] Drift correction results inspected at 2023-06-13 13:29:41.780423
+INFO [2023-06-13 13:29:41] 
+Drift correction results inspected, report:
+Drift_corrected: 89%,  Missing_QCS: 11%
+INFO [2023-06-13 13:29:41] 
+32% of features flagged for low quality
+INFO [2023-06-13 13:29:55] 
+Starting random forest imputation at 2023-06-13 13:29:55.391566
+INFO [2023-06-13 13:29:55] Out-of-bag error in random forest imputation: 0
+INFO [2023-06-13 13:29:55] Random forest imputation finished at 2023-06-13 13:29:55.401232 
+
+INFO [2023-06-13 13:29:55] 
+Starting random forest imputation at 2023-06-13 13:29:55.404276
+INFO [2023-06-13 13:29:55] Out-of-bag error in random forest imputation: 0.007
+INFO [2023-06-13 13:29:55] Random forest imputation finished at 2023-06-13 13:29:55.495164 
+
+INFO [2023-06-13 13:29:59] Finished analysis. Tue Jun 13 13:29:59 2023
+Session info:
+
+INFO [2023-06-13 13:29:59] R version 4.3.0 (2023-04-21 ucrt)
+INFO [2023-06-13 13:29:59] Platform: x86_64-w64-mingw32/x64 (64-bit)
+INFO [2023-06-13 13:29:59] Running under: Windows 10 x64 (build 19045)
+INFO [2023-06-13 13:29:59] 
+INFO [2023-06-13 13:29:59] Matrix products: default
+INFO [2023-06-13 13:29:59] 
+INFO [2023-06-13 13:29:59] 
+INFO [2023-06-13 13:29:59] locale:
+INFO [2023-06-13 13:29:59] [1] LC_COLLATE=English_United States.utf8  LC_CTYPE=English_United States.utf8   
+INFO [2023-06-13 13:29:59] [3] LC_MONETARY=English_United States.utf8 LC_NUMERIC=C                          
+INFO [2023-06-13 13:29:59] [5] LC_TIME=English_United States.utf8    
+INFO [2023-06-13 13:29:59] 
+INFO [2023-06-13 13:29:59] time zone: Europe/Helsinki
+INFO [2023-06-13 13:29:59] tzcode source: internal
+INFO [2023-06-13 13:29:59] 
+INFO [2023-06-13 13:29:59] attached base packages:
+INFO [2023-06-13 13:29:59] [1] grid      parallel  stats     graphics  grDevices utils     datasets  methods   base     
+INFO [2023-06-13 13:29:59] 
+INFO [2023-06-13 13:29:59] other attached packages:
+INFO [2023-06-13 13:29:59]  [1] ComplexHeatmap_2.16.0 circlize_0.4.15       lubridate_1.9.2       forcats_1.0.0         stringr_1.5.0        
+INFO [2023-06-13 13:29:59]  [6] purrr_1.0.1           readr_2.1.4           tidyr_1.3.0           tibble_3.2.1          tidyverse_2.0.0      
+INFO [2023-06-13 13:29:59] [11] rvg_0.3.3             officer_0.6.2         ggbiplot_0.55         scales_1.2.1          plyr_1.8.8           
+INFO [2023-06-13 13:29:59] [16] readxl_1.4.2          ggpubr_0.6.0.999      openxlsx_4.2.5.2      dplyr_1.1.2           doParallel_1.0.17    
+INFO [2023-06-13 13:29:59] [21] iterators_1.0.14      foreach_1.5.2         notame_0.2.1          magrittr_2.0.3        ggplot2_3.4.2        
+INFO [2023-06-13 13:29:59] [26] futile.logger_1.4.3   Biobase_2.60.0        BiocGenerics_0.46.0  
+INFO [2023-06-13 13:29:59] 
+INFO [2023-06-13 13:29:59] loaded via a namespace (and not attached):
+INFO [2023-06-13 13:29:59]   [1] RColorBrewer_1.1-3      rstudioapi_0.14         jsonlite_1.8.4          shape_1.4.6            
+INFO [2023-06-13 13:29:59]   [5] rmarkdown_2.21          farver_2.1.1            GlobalOptions_0.1.2     fs_1.6.2               
+INFO [2023-06-13 13:29:59]   [9] ragg_1.2.5              vctrs_0.6.2             memoise_2.0.1           askpass_1.1            
+INFO [2023-06-13 13:29:59]  [13] rstatix_0.7.2           htmltools_0.5.5         usethis_2.1.6           itertools_0.1-3        
+INFO [2023-06-13 13:29:59]  [17] missForest_1.5          lambda.r_1.2.4          curl_5.0.0              broom_1.0.4            
+INFO [2023-06-13 13:29:59]  [21] cellranger_1.1.0        htmlwidgets_1.6.2       futile.options_1.0.1    cachem_1.0.8           
+INFO [2023-06-13 13:29:59]  [25] uuid_1.1-0              mime_0.12               lifecycle_1.0.3         pkgconfig_2.0.3        
+INFO [2023-06-13 13:29:59]  [29] R6_2.5.1                fastmap_1.1.1           clue_0.3-64             shiny_1.7.4            
+INFO [2023-06-13 13:29:59]  [33] digest_0.6.31           pcaMethods_1.92.0       colorspace_2.1-0        S4Vectors_0.38.1       
+INFO [2023-06-13 13:29:59]  [37] ps_1.7.5                pkgload_1.3.2           textshaping_0.3.6       labeling_0.4.2         
+INFO [2023-06-13 13:29:59]  [41] randomForest_4.7-1.1    fansi_1.0.4             timechange_0.2.0        abind_1.4-5            
+INFO [2023-06-13 13:29:59]  [45] compiler_4.3.0          rngtools_1.5.2          remotes_2.4.2           fontquiver_0.2.1       
+INFO [2023-06-13 13:29:59]  [49] withr_2.5.0             backports_1.4.1         carData_3.0-5           pkgbuild_1.4.0         
+INFO [2023-06-13 13:29:59]  [53] ggsignif_0.6.4          openssl_2.0.6           sessioninfo_1.2.2       rjson_0.2.21           
+INFO [2023-06-13 13:29:59]  [57] gfonts_0.2.0            tools_4.3.0             zip_2.3.0               httpuv_1.6.11          
+INFO [2023-06-13 13:29:59]  [61] glue_1.6.2              callr_3.7.3             promises_1.2.0.1        cluster_2.1.4          
+INFO [2023-06-13 13:29:59]  [65] generics_0.1.3          gtable_0.3.3            tzdb_0.4.0              hms_1.1.3              
+INFO [2023-06-13 13:29:59]  [69] xml2_1.3.4              car_3.1-2               utf8_1.2.3              ggrepel_0.9.3          
+INFO [2023-06-13 13:29:59]  [73] pillar_1.9.0            later_1.3.1             tidyselect_1.2.0        fontLiberation_0.1.0   
+INFO [2023-06-13 13:29:59]  [77] miniUI_0.1.1.1          knitr_1.43              fontBitstreamVera_0.1.1 IRanges_2.34.0         
+INFO [2023-06-13 13:29:59]  [81] xfun_0.39               stats4_4.3.0            crul_1.4.0              devtools_2.4.5         
+INFO [2023-06-13 13:29:59]  [85] matrixStats_0.63.0      stringi_1.7.12          yaml_2.3.7              evaluate_0.21          
+INFO [2023-06-13 13:29:59]  [89] codetools_0.2-19        httpcode_0.3.0          gdtools_0.3.3           cli_3.6.1              
+INFO [2023-06-13 13:29:59]  [93] xtable_1.8-4            systemfonts_1.0.4       munsell_0.5.0           processx_3.8.1         
+INFO [2023-06-13 13:29:59]  [97] Rcpp_1.0.10             png_0.1-8               ellipsis_0.3.2          prettyunits_1.1.1      
+INFO [2023-06-13 13:29:59] [101] doRNG_1.8.6             profvis_0.3.8           urlchecker_1.0.1        viridisLite_0.4.2      
+INFO [2023-06-13 13:29:59] [105] crayon_1.5.2            GetoptLong_1.0.5        rlang_1.1.1             cowplot_1.1.1          
+INFO [2023-06-13 13:29:59] [109] formatR_1.14           
